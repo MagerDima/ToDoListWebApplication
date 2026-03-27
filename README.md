@@ -31,9 +31,9 @@
 Запустите базу данных PostgreSQL через Docker Compose:
 
    ```bash
-docker-compose up -d
+   docker-compose up -d
 (Убедитесь, что файл docker-compose.yml содержит настройки для PostgreSQL, порт 5432)
-
+   
 Настройте конфигурацию (при необходимости):
 Убедитесь, что в application.properties или application.yml указаны правильные параметры подключения к БД:
 
@@ -43,6 +43,6 @@ spring.datasource.username=postgres
 spring.datasource.password=postgres
 Соберите и запустите приложение:
 
-bash
-./mvnw spring-boot:run
+   ```bash
+   ./mvnw spring-boot:run
 Приложение будет доступно по адресу: http://localhost:8080
