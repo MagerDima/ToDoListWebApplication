@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Авторизоваться</title>
+    <link href="/css/public/authorization/authorization-page.css" rel="stylesheet">
+</head>
+<body>
+<div class="page-wrapper">
+    <div class="container">
+        <div class="header-container">
+            <h2 class="header-container__text">Авторизоваться</h2>
+        </div>
+        <div class="form-container">
+            <form action="/login" method="post" class="form-container__form">
+                <div class="form-container__input-wrapper">
+                    <input type="email" name="email" placeholder="Enter your email" class="form-container__input" required>
+                </div>
+                <div class="form-container__input-wrapper">
+                    <input type="password" name="password" placeholder="Enter your password" class="form-container__input" required>
+                </div>
+                <div th:if="${isAuthenticationFailed}" class="form-container__warning-wrapper">
+                    <span class="form-container__warning">Неверный адрес электронной почты или пароль</span>
+                </div>
+                <div class="form-container__button-wrapper">
+                    <button type="submit" class="form-container__button">Войти</button>
+                </div>
+            </form>
+        </div>
+        <div class="footer-link-container">
+            <span class="footer-link-container__text">У вас нет аккаунта? <a href="/registration" class="footer-link-container__link">Зарегистрироваться</a></span>
+        </div>
+    </div>
+</div>
+</body>
+</html>

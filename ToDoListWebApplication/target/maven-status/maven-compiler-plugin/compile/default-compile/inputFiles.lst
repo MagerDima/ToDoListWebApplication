@@ -1,0 +1,17 @@
+D:\Program\Projects\ToDoListWebApplication\src\main\java\ru\codekitchen\controller\secured\PrivateAdminController.java
+D:\Program\Projects\ToDoListWebApplication\src\main\java\ru\codekitchen\entity\User.java
+D:\Program\Projects\ToDoListWebApplication\src\main\java\ru\codekitchen\service\RecordService.java
+D:\Program\Projects\ToDoListWebApplication\src\main\java\ru\codekitchen\controller\common\PublicAuthorizationController.java
+D:\Program\Projects\ToDoListWebApplication\src\main\java\ru\codekitchen\entity\UserRole.java
+D:\Program\Projects\ToDoListWebApplication\src\main\java\ru\codekitchen\entity\dto\RecordsContainerDto.java
+D:\Program\Projects\ToDoListWebApplication\src\main\java\ru\codekitchen\entity\Record.java
+D:\Program\Projects\ToDoListWebApplication\src\main\java\ru\codekitchen\config\SecurityConfig.java
+D:\Program\Projects\ToDoListWebApplication\src\main\java\ru\codekitchen\controller\secured\PrivateSuperAdminController.java
+D:\Program\Projects\ToDoListWebApplication\src\main\java\ru\codekitchen\ToDoListApplication.java
+D:\Program\Projects\ToDoListWebApplication\src\main\java\ru\codekitchen\repository\RecordRepository.java
+D:\Program\Projects\ToDoListWebApplication\src\main\java\ru\codekitchen\entity\RecordStatus.java
+D:\Program\Projects\ToDoListWebApplication\src\main\java\ru\codekitchen\service\UserService.java
+D:\Program\Projects\ToDoListWebApplication\src\main\java\ru\codekitchen\controller\secured\PrivateAccountController.java
+D:\Program\Projects\ToDoListWebApplication\src\main\java\ru\codekitchen\controller\exception\GlobalExceptionHandler.java
+D:\Program\Projects\ToDoListWebApplication\src\main\java\ru\codekitchen\repository\UserRepository.java
+D:\Program\Projects\ToDoListWebApplication\src\main\java\ru\codekitchen\controller\common\PublicHomeController.java
