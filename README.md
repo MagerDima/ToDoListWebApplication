@@ -30,10 +30,10 @@
    cd ToDoListWebApplication
 Запустите базу данных PostgreSQL через Docker Compose:
 
-   ```bash
-   docker-compose up -d
+bash
+docker-compose up -d
 (Убедитесь, что файл docker-compose.yml содержит настройки для PostgreSQL, порт 5432)
-   
+
 Настройте конфигурацию (при необходимости):
 Убедитесь, что в application.properties или application.yml указаны правильные параметры подключения к БД:
 
@@ -41,8 +41,3 @@ properties
 spring.datasource.url=jdbc:postgresql://localhost:5432/todolist
 spring.datasource.username=postgres
 spring.datasource.password=postgres
-Соберите и запустите приложение:
-
-   ```bash
-   ./mvnw spring-boot:run
-Приложение будет доступно по адресу: http://localhost:8080
