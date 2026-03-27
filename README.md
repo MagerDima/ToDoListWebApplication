@@ -30,7 +30,7 @@
    cd ToDoListWebApplication
 Запустите базу данных PostgreSQL через Docker Compose:
 
-bash
+```bash
 docker-compose up -d
 (Убедитесь, что файл docker-compose.yml содержит настройки для PostgreSQL, порт 5432)
 
